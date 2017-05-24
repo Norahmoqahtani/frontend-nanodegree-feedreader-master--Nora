@@ -1,11 +1,20 @@
 # Udacity Frontend Nanodegree Feedreader
 
+ This is a project for learning testing with Jasmine.It is given a web-based application that reads RSS feeds. 
 
-## How to Run this project.
+## How to Run this project:
 
 1. Use github or Download the repo.
 Chick it on 
+[Github](https://github.com/Norahmoqahtani/frontend-nanodegree-feedreader-master--Nora "Github")
 2. Open index.html page in your browser
+
+## Requirements:
+
+- defined url attribute
+- defined name attribute
+- hiding/ showing Menu element
+- hiding menu when clicked again
 
 ----------------------------
 
