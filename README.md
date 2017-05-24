@@ -23,7 +23,7 @@ Chick it on
 
 
 - New Feed 
-     1.   new feed is loaded content actually changes.
+     1.   new feed is loaded content changes.
 
 
 
