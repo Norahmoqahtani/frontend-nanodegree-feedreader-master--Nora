@@ -11,12 +11,20 @@ Chick it on
 
 ## Requirements:
 
-- defined url attribute
-- defined name attribute
-- hiding/ showing Menu element
-- hiding menu when clicked again
+- RSS Feeds Test
 
-----------------------------
+    1. defined url attribute. 
+    2. defined name attribute.
+
+- The Menu 
+
+    1. hiding/ showing Menu element.
+    2. hiding menu when clicked again.
+
+
+- New Feed 
+     1.   loaded content actually changes.
+
 
 
 
