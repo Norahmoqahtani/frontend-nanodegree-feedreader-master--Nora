@@ -34,7 +34,7 @@ $(function () {
         it('URL is not empty', function () {
             allFeeds.forEach(function (feed) {
                 expect(feed.url).toBeDefined();
-                expect(feed.url).not.toBe(0);
+                expect(feed.url).not.toEqual(0);
             });
         });
         
@@ -45,7 +45,7 @@ $(function () {
         it('name is not empty', function () {
             allFeeds.forEach(function (feed) {
                 expect(feed.name).toBeDefined();
-                expect(feed.name).not.toBe(0);
+                expect(feed.name).not.toEqual(0);
             });
         });
     });
@@ -88,9 +88,8 @@ $(function () {
         beforeEach(function (done) {
             loadFeed(0, done);
         });
-        it('.entry element within the .feed container', function () {
-            expect($('.entry').length).not.toBe(0);
-            expect($('.feed').length).not.toBe(0);
+        it('there is at least a single.entry element within the .feed container', function () {
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
     
